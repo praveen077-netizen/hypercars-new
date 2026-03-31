@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>menu</title>
+</head>
+<style> 
+ body{ 
+       font-family: arial; 
+       }
+
+    *{
+    	box-sizing: border-box;
+     
+    }
+
+    .box {
+        max-width: 1280px;
+       width: 100%;
+       margin: 20px auto;
+   }  
+
+     .header { 
+      display: flex;
+      padding: 0 20px;
+      align-items: center;  
+          height:90px; 
+        width: 100%;
+         border: solid black 3px ;
+     justify-content:space-between;
+      }
+
+      .para{
+       height: auto;
+        border: solid black 2px; 
+        width: 100%;
+         background-color:whitesmoke;
+           }
+
+       .size{
+        min-height: 200px;
+        width:100%;
+        text-align: center;
+         font-size: 18px;
+          border:solid black 2px;
+          background-color:lightgrey;
+          padding: 20px;
+           }
+        p{ 
+         margin:10px;
+         padding:10px; }
+
+
+       h2{ text-align: center;
+        color: tomato;
+         gap: 30px;
+
+       }
+
+       .gallery{
+       	display: flex;
+       	flex-wrap: wrap;
+       	justify-content:right;
+        align-items: center;
+       }
+       .gallery-item{
+       	padding: 20px;
+       	width: 50%;
+       font-size: 16px;
+       	font-family: arial;
+       }
+
+       .gallery-item img{
+        width: 100%;
+        max-width: 500px;
+       }
+
+   
+    @media (max-width: 768px) {
+  
+    .gallery-item{
+      width: 100%;
+    text-align: center;
+    flex-direction: column;
+    }
+    .header{
+      flex-wrap: wrap;
+      height: auto;
+      gap: 10px;
+      width: 100%;
+    text-align: center;
+      align-items: center;
+      justify-content:space-between;
+    } 
+}
+
+</style>
+<body>
+	<div class="box">
+	<div class="header"> 
+  <img style="width:150px; height: 90px;"  src="images/cartrade-logo.png">
+
+  <h2>  </h2> 
+  <h2> </h2>
+  <h2> </h2>
+ <div> <im style="width:50px; height: 50px; " src="images/contact.png"><br> </div>
+  <img style="width:40PX; height: 40PX;" src="images/menu.png">
+     
+	 </div> 
+	 
+		<div class="para"> 
+      <div style="font-size: 30px; text-align: center; margin: 20px;"> WelCome to <span style="color: #CA0813;"> CarTrade Tech</span></div>
+         <div class="gallery"> 
+         <div class="gallery-item"> <img src="images/bmw.jpg"> </div> 
+         <div class="gallery-item"> 
+          <p> Top Speed: ~330 mph (531 km/h)<br>
+           Engine: 5.0L Twin-Turbo V8<br>
+           Power: 1,578 hp (on E85 biofuel)<br>
+           Key Feature: Drag coefficient of 0.278 Cd, with rear fins replacing a traditional wing for stability. 
+         </p>
+       </div> 
+
+        <div class="gallery-item"> 
+        <p>Company Name: Bayerische Motoren Werke (Bavarian Engine Works).<br>
+     Established: March 7, 1916.<br>
+     2023 Production: 2,555,341 vehicles (9th largest manufacturer).<br>
+     Core Offerings: Luxury sedans, SUVs (X-series), performance cars (M-division), and electric vehicles (i-series).<br>
+     Top 5 Popular Models (India, 2026): M5, 3 Series, X1, X5, M4 Competition.
+       </p> 
+     </div>
+      	 <div  class="gallery-item">
+          <img src="images/bmw.jpg">
+           </div> 
+        
+          </div>
+		 </div>
+
+	<footer class="size"> 
+    <p> Service & Support: Service center, parts department, car repair, maintenance.<br>
+      Financing: Finance application, leasing options, protection plans.<br>
+      Company Information: About Us, Careers, Newsroom, Investor Relations.  
+   </p>  
+  </footer>
+
+	</div>
+</body>
+</html>
