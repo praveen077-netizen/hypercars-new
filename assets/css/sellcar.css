@@ -1,0 +1,9 @@
+body{
+    background-color: skyblue;
+}
+
+h1{
+    border-bottom: 5px greenyellow;
+
+    color: rgb(255, 0, 17);
+}

@@ -1,0 +1,27 @@
+body{
+    background-color: rgb(255, 255, 255);
+}
+.menu-list{
+    background-color: rgb(126, 163, 196);
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    color: red;
+    font-size: larger;
+    font-weight: 900;
+    font-family: "poppins",sans-serif;
+    height: 200px;
+    
+
+
+}
+a{
+    padding: 20px;
+    color: red;
+}
+.btn1{
+    background: transparent;
+    color: red;
+    padding: 20px;
+}
